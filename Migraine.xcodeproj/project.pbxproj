@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582566501C02D41E006275F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825664F1C02D41E006275F3 /* AppDelegate.swift */; };
+		582566521C02D41E006275F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582566511C02D41E006275F3 /* ViewController.swift */; };
+		582566551C02D41E006275F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582566531C02D41E006275F3 /* Main.storyboard */; };
+		582566571C02D41E006275F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582566561C02D41E006275F3 /* Assets.xcassets */; };
+		5825665A1C02D41E006275F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582566581C02D41E006275F3 /* LaunchScreen.storyboard */; };
+		582566651C02D41E006275F3 /* MigraineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582566641C02D41E006275F3 /* MigraineTests.swift */; };
+		582566701C02D41F006275F3 /* MigraineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825666F1C02D41F006275F3 /* MigraineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582566611C02D41E006275F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582566441C02D41E006275F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5825664B1C02D41E006275F3;
+			remoteInfo = Migraine;
+		};
+		5825666C1C02D41F006275F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582566441C02D41E006275F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5825664B1C02D41E006275F3;
+			remoteInfo = Migraine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5825664C1C02D41E006275F3 /* Migraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5825664F1C02D41E006275F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582566511C02D41E006275F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		582566541C02D41E006275F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582566561C02D41E006275F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582566591C02D41E006275F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5825665B1C02D41E006275F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582566601C02D41E006275F3 /* MigraineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigraineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582566641C02D41E006275F3 /* MigraineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineTests.swift; sourceTree = "<group>"; };
+		582566661C02D41E006275F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5825666B1C02D41F006275F3 /* MigraineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigraineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5825666F1C02D41F006275F3 /* MigraineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineUITests.swift; sourceTree = "<group>"; };
+		582566711C02D41F006275F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582566491C02D41E006275F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5825665D1C02D41E006275F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582566681C02D41F006275F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582566431C02D41E006275F3 = {
+			isa = PBXGroup;
+			children = (
+				5825664E1C02D41E006275F3 /* Migraine */,
+				582566631C02D41E006275F3 /* MigraineTests */,
+				5825666E1C02D41F006275F3 /* MigraineUITests */,
+				5825664D1C02D41E006275F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5825664D1C02D41E006275F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5825664C1C02D41E006275F3 /* Migraine.app */,
+				582566601C02D41E006275F3 /* MigraineTests.xctest */,
+				5825666B1C02D41F006275F3 /* MigraineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5825664E1C02D41E006275F3 /* Migraine */ = {
+			isa = PBXGroup;
+			children = (
+				5825664F1C02D41E006275F3 /* AppDelegate.swift */,
+				582566511C02D41E006275F3 /* ViewController.swift */,
+				582566531C02D41E006275F3 /* Main.storyboard */,
+				582566561C02D41E006275F3 /* Assets.xcassets */,
+				582566581C02D41E006275F3 /* LaunchScreen.storyboard */,
+				5825665B1C02D41E006275F3 /* Info.plist */,
+			);
+			path = Migraine;
+			sourceTree = "<group>";
+		};
+		582566631C02D41E006275F3 /* MigraineTests */ = {
+			isa = PBXGroup;
+			children = (
+				582566641C02D41E006275F3 /* MigraineTests.swift */,
+				582566661C02D41E006275F3 /* Info.plist */,
+			);
+			path = MigraineTests;
+			sourceTree = "<group>";
+		};
+		5825666E1C02D41F006275F3 /* MigraineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5825666F1C02D41F006275F3 /* MigraineUITests.swift */,
+				582566711C02D41F006275F3 /* Info.plist */,
+			);
+			path = MigraineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5825664B1C02D41E006275F3 /* Migraine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582566741C02D41F006275F3 /* Build configuration list for PBXNativeTarget "Migraine" */;
+			buildPhases = (
+				582566481C02D41E006275F3 /* Sources */,
+				582566491C02D41E006275F3 /* Frameworks */,
+				5825664A1C02D41E006275F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Migraine;
+			productName = Migraine;
+			productReference = 5825664C1C02D41E006275F3 /* Migraine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5825665F1C02D41E006275F3 /* MigraineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582566771C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineTests" */;
+			buildPhases = (
+				5825665C1C02D41E006275F3 /* Sources */,
+				5825665D1C02D41E006275F3 /* Frameworks */,
+				5825665E1C02D41E006275F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582566621C02D41E006275F3 /* PBXTargetDependency */,
+			);
+			name = MigraineTests;
+			productName = MigraineTests;
+			productReference = 582566601C02D41E006275F3 /* MigraineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5825666A1C02D41F006275F3 /* MigraineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5825667A1C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineUITests" */;
+			buildPhases = (
+				582566671C02D41F006275F3 /* Sources */,
+				582566681C02D41F006275F3 /* Frameworks */,
+				582566691C02D41F006275F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5825666D1C02D41F006275F3 /* PBXTargetDependency */,
+			);
+			name = MigraineUITests;
+			productName = MigraineUITests;
+			productReference = 5825666B1C02D41F006275F3 /* MigraineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582566441C02D41E006275F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yanbo Li";
+				TargetAttributes = {
+					5825664B1C02D41E006275F3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72MEUHWN7S;
+					};
+					5825665F1C02D41E006275F3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72MEUHWN7S;
+						TestTargetID = 5825664B1C02D41E006275F3;
+					};
+					5825666A1C02D41F006275F3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72MEUHWN7S;
+						TestTargetID = 5825664B1C02D41E006275F3;
+					};
+				};
+			};
+			buildConfigurationList = 582566471C02D41E006275F3 /* Build configuration list for PBXProject "Migraine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582566431C02D41E006275F3;
+			productRefGroup = 5825664D1C02D41E006275F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5825664B1C02D41E006275F3 /* Migraine */,
+				5825665F1C02D41E006275F3 /* MigraineTests */,
+				5825666A1C02D41F006275F3 /* MigraineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5825664A1C02D41E006275F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5825665A1C02D41E006275F3 /* LaunchScreen.storyboard in Resources */,
+				582566571C02D41E006275F3 /* Assets.xcassets in Resources */,
+				582566551C02D41E006275F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5825665E1C02D41E006275F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582566691C02D41F006275F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582566481C02D41E006275F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582566521C02D41E006275F3 /* ViewController.swift in Sources */,
+				582566501C02D41E006275F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5825665C1C02D41E006275F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582566651C02D41E006275F3 /* MigraineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582566671C02D41F006275F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582566701C02D41F006275F3 /* MigraineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582566621C02D41E006275F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5825664B1C02D41E006275F3 /* Migraine */;
+			targetProxy = 582566611C02D41E006275F3 /* PBXContainerItemProxy */;
+		};
+		5825666D1C02D41F006275F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5825664B1C02D41E006275F3 /* Migraine */;
+			targetProxy = 5825666C1C02D41F006275F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582566531C02D41E006275F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582566541C02D41E006275F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582566581C02D41E006275F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582566591C02D41E006275F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582566721C02D41F006275F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582566731C02D41F006275F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582566751C02D41F006275F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Migraine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.Migraine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		582566761C02D41F006275F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Migraine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.Migraine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		582566781C02D41F006275F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MigraineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.MigraineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Migraine.app/Migraine";
+			};
+			name = Debug;
+		};
+		582566791C02D41F006275F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MigraineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.MigraineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Migraine.app/Migraine";
+			};
+			name = Release;
+		};
+		5825667B1C02D41F006275F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MigraineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.MigraineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Migraine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5825667C1C02D41F006275F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MigraineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.MigraineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Migraine;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582566471C02D41E006275F3 /* Build configuration list for PBXProject "Migraine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582566721C02D41F006275F3 /* Debug */,
+				582566731C02D41F006275F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582566741C02D41F006275F3 /* Build configuration list for PBXNativeTarget "Migraine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582566751C02D41F006275F3 /* Debug */,
+				582566761C02D41F006275F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		582566771C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582566781C02D41F006275F3 /* Debug */,
+				582566791C02D41F006275F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5825667A1C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5825667B1C02D41F006275F3 /* Debug */,
+				5825667C1C02D41F006275F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582566441C02D41E006275F3 /* Project object */;
+}
