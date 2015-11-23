@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ResearchKit
 
 class ViewController: UIViewController {
 
@@ -21,5 +22,20 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController : ORKTaskViewControllerDelegate {
+    
+    func taskViewController(taskViewController: ORKTaskViewController, didFinishWithReason reason: ORKTaskViewControllerFinishReason, error: NSError?) {
+        //Handle results with taskViewController.result
+        taskViewController.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func consentTapped(sender : AnyObject) {
+        let taskViewController = ORKTaskViewController(task: ConsentTask, taskRunUUID: nil)
+        taskViewController.delegate = self
+        presentViewController(taskViewController, animated: true, completion: nil)
+    }
+    
 }
 

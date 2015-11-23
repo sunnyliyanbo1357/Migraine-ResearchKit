@@ -14,6 +14,10 @@
 		5825665A1C02D41E006275F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582566581C02D41E006275F3 /* LaunchScreen.storyboard */; };
 		582566651C02D41E006275F3 /* MigraineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582566641C02D41E006275F3 /* MigraineTests.swift */; };
 		582566701C02D41F006275F3 /* MigraineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825666F1C02D41F006275F3 /* MigraineUITests.swift */; };
+		582566871C02D47F006275F3 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582566841C02D450006275F3 /* ResearchKit.framework */; };
+		582566881C02D47F006275F3 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 582566841C02D450006275F3 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668C1C02D577006275F3 /* ConsentDocument.swift */; };
+		5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668E1C02D67B006275F3 /* ConsentTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +35,42 @@
 			remoteGlobalIDString = 5825664B1C02D41E006275F3;
 			remoteInfo = Migraine;
 		};
+		582566831C02D450006275F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		582566851C02D450006275F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		582566891C02D47F006275F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5825668B1C02D47F006275F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				582566881C02D47F006275F3 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5825664C1C02D41E006275F3 /* Migraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +86,9 @@
 		5825666B1C02D41F006275F3 /* MigraineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigraineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5825666F1C02D41F006275F3 /* MigraineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineUITests.swift; sourceTree = "<group>"; };
 		582566711C02D41F006275F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		5825668C1C02D577006275F3 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		5825668E1C02D67B006275F3 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582566871C02D47F006275F3 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +120,7 @@
 		582566431C02D41E006275F3 = {
 			isa = PBXGroup;
 			children = (
+				5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */,
 				5825664E1C02D41E006275F3 /* Migraine */,
 				582566631C02D41E006275F3 /* MigraineTests */,
 				5825666E1C02D41F006275F3 /* MigraineUITests */,
@@ -98,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				5825664F1C02D41E006275F3 /* AppDelegate.swift */,
+				5825668C1C02D577006275F3 /* ConsentDocument.swift */,
+				5825668E1C02D67B006275F3 /* ConsentTask.swift */,
 				582566511C02D41E006275F3 /* ViewController.swift */,
 				582566531C02D41E006275F3 /* Main.storyboard */,
 				582566561C02D41E006275F3 /* Assets.xcassets */,
@@ -125,6 +171,15 @@
 			path = MigraineUITests;
 			sourceTree = "<group>";
 		};
+		5825667E1C02D450006275F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582566841C02D450006275F3 /* ResearchKit.framework */,
+				582566861C02D450006275F3 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +190,12 @@
 				582566481C02D41E006275F3 /* Sources */,
 				582566491C02D41E006275F3 /* Frameworks */,
 				5825664A1C02D41E006275F3 /* Resources */,
+				5825668B1C02D47F006275F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5825668A1C02D47F006275F3 /* PBXTargetDependency */,
 			);
 			name = Migraine;
 			productName = Migraine;
@@ -218,6 +275,12 @@
 			mainGroup = 582566431C02D41E006275F3;
 			productRefGroup = 5825664D1C02D41E006275F3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5825667E1C02D450006275F3 /* Products */;
+					ProjectRef = 5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5825664B1C02D41E006275F3 /* Migraine */,
@@ -226,6 +289,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		582566841C02D450006275F3 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 582566831C02D450006275F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		582566861C02D450006275F3 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 582566851C02D450006275F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5825664A1C02D41E006275F3 /* Resources */ = {
@@ -260,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				582566521C02D41E006275F3 /* ViewController.swift in Sources */,
+				5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */,
+				5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */,
 				582566501C02D41E006275F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +374,11 @@
 			isa = PBXTargetDependency;
 			target = 5825664B1C02D41E006275F3 /* Migraine */;
 			targetProxy = 5825666C1C02D41F006275F3 /* PBXContainerItemProxy */;
+		};
+		5825668A1C02D47F006275F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 582566891C02D47F006275F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -400,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Migraine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunny.Migraine;
@@ -411,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Migraine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunny.Migraine;
