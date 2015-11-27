@@ -18,17 +18,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-hb-MZE">
-                                <rect key="frame" x="130" y="216" width="48" height="30"/>
+                                <rect key="frame" x="152" y="215" width="48" height="30"/>
                                 <state key="normal" title="Survey"/>
                                 <connections>
                                     <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edn-Y9-Yam"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4X-Et-ZXd">
-                                <rect key="frame" x="125" y="276" width="58" height="30"/>
+                                <rect key="frame" x="147" y="135" width="58" height="30"/>
                                 <state key="normal" title="Concent"/>
                                 <connections>
                                     <action selector="consentTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lVV-5P-gFk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-fc-bfz">
+                                <rect key="frame" x="135" y="285" width="82" height="30"/>
+                                <state key="normal" title="Microphone"/>
+                                <connections>
+                                    <action selector="microphoneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HwH-fb-hQY"/>
                                 </connections>
                             </button>
                         </subviews>
