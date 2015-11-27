@@ -18,6 +18,7 @@
 		582566881C02D47F006275F3 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 582566841C02D450006275F3 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668C1C02D577006275F3 /* ConsentDocument.swift */; };
 		5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668E1C02D67B006275F3 /* ConsentTask.swift */; };
+		583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B011C08EE5E007D22FE /* SurveyTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		5825667D1C02D450006275F3 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		5825668C1C02D577006275F3 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		5825668E1C02D67B006275F3 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		583D9B011C08EE5E007D22FE /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				5825668E1C02D67B006275F3 /* ConsentTask.swift */,
 				582566511C02D41E006275F3 /* ViewController.swift */,
 				582566531C02D41E006275F3 /* Main.storyboard */,
+				583D9B011C08EE5E007D22FE /* SurveyTask.swift */,
 				582566561C02D41E006275F3 /* Assets.xcassets */,
 				582566581C02D41E006275F3 /* LaunchScreen.storyboard */,
 				5825665B1C02D41E006275F3 /* Info.plist */,
@@ -341,6 +344,7 @@
 			files = (
 				582566521C02D41E006275F3 /* ViewController.swift in Sources */,
 				5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */,
+				583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */,
 				5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */,
 				582566501C02D41E006275F3 /* AppDelegate.swift in Sources */,
 			);
@@ -574,6 +578,7 @@
 				582566761C02D41F006275F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		582566771C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +587,7 @@
 				582566791C02D41F006275F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5825667A1C02D41F006275F3 /* Build configuration list for PBXNativeTarget "MigraineUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +596,7 @@
 				5825667C1C02D41F006275F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
