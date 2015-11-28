@@ -51,7 +51,12 @@ extension ViewController : ORKTaskViewControllerDelegate {
     }
     
     
-    
+    @IBAction func memoryTapped(sender : AnyObject) {
+        let taskViewController = ORKTaskViewController(task: MemoryTask, taskRunUUID: nil)
+        taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String, isDirectory: true)
+        presentViewController(taskViewController, animated: true, completion: nil)
+    }
     
     
     

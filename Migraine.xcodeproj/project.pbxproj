@@ -20,6 +20,7 @@
 		5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668E1C02D67B006275F3 /* ConsentTask.swift */; };
 		583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B011C08EE5E007D22FE /* SurveyTask.swift */; };
 		583D9B071C090FBD007D22FE /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B061C090FBD007D22FE /* MicrophoneTask.swift */; };
+		583D9B131C092736007D22FE /* MemoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B121C092736007D22FE /* MemoryTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		5825668E1C02D67B006275F3 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		583D9B011C08EE5E007D22FE /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		583D9B061C090FBD007D22FE /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
+		583D9B121C092736007D22FE /* MemoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				5825664F1C02D41E006275F3 /* AppDelegate.swift */,
 				583D9B061C090FBD007D22FE /* MicrophoneTask.swift */,
+				583D9B121C092736007D22FE /* MemoryTask.swift */,
 				5825668C1C02D577006275F3 /* ConsentDocument.swift */,
 				5825668E1C02D67B006275F3 /* ConsentTask.swift */,
 				582566511C02D41E006275F3 /* ViewController.swift */,
@@ -349,6 +352,7 @@
 				5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */,
 				583D9B071C090FBD007D22FE /* MicrophoneTask.swift in Sources */,
 				583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */,
+				583D9B131C092736007D22FE /* MemoryTask.swift in Sources */,
 				5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */,
 				582566501C02D41E006275F3 /* AppDelegate.swift in Sources */,
 			);
