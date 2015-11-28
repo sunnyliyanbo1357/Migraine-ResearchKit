@@ -20,11 +20,17 @@
 		5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825668E1C02D67B006275F3 /* ConsentTask.swift */; };
 		583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B011C08EE5E007D22FE /* SurveyTask.swift */; };
 		583D9B071C090FBD007D22FE /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B061C090FBD007D22FE /* MicrophoneTask.swift */; };
-		583D9B131C092736007D22FE /* MemoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B121C092736007D22FE /* MemoryTask.swift */; };
 		583D9B161C092DEA007D22FE /* CognitiveTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B151C092DEA007D22FE /* CognitiveTasks.swift */; };
-		583D9B181C0937DC007D22FE /* ReactionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B171C0937DC007D22FE /* ReactionTask.swift */; };
 		583D9B1A1C093D98007D22FE /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B191C093D98007D22FE /* TaskListViewController.swift */; };
 		583D9B1C1C093E0B007D22FE /* TaskListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B1B1C093E0B007D22FE /* TaskListRow.swift */; };
+		583D9B2C1C098B28007D22FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B2B1C098B28007D22FE /* TableViewController.swift */; };
+		583D9B311C0A24CB007D22FE /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B301C0A24CB007D22FE /* ImageTableViewCell.swift */; };
+		583D9B331C0A2522007D22FE /* ResultTableViewProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B321C0A2522007D22FE /* ResultTableViewProviders.swift */; };
+		583D9B351C0A257D007D22FE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B341C0A257D007D22FE /* ResultViewController.swift */; };
+		583D9B371C0A25B9007D22FE /* TextImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B361C0A25B9007D22FE /* TextImageTableViewCell.swift */; };
+		583D9B3A1C0A2DED007D22FE /* ChartDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B391C0A2DED007D22FE /* ChartDataSources.swift */; };
+		583D9B3C1C0A2E1D007D22FE /* ChartListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B3B1C0A2E1D007D22FE /* ChartListViewController.swift */; };
+		583D9B3E1C0A2E4D007D22FE /* ChartTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D9B3D1C0A2E4D007D22FE /* ChartTableViewCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,11 +104,17 @@
 		5825668E1C02D67B006275F3 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		583D9B011C08EE5E007D22FE /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 		583D9B061C090FBD007D22FE /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
-		583D9B121C092736007D22FE /* MemoryTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryTask.swift; sourceTree = "<group>"; };
 		583D9B151C092DEA007D22FE /* CognitiveTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitiveTasks.swift; sourceTree = "<group>"; };
-		583D9B171C0937DC007D22FE /* ReactionTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionTask.swift; sourceTree = "<group>"; };
 		583D9B191C093D98007D22FE /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		583D9B1B1C093E0B007D22FE /* TaskListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListRow.swift; sourceTree = "<group>"; };
+		583D9B2B1C098B28007D22FE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		583D9B301C0A24CB007D22FE /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		583D9B321C0A2522007D22FE /* ResultTableViewProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewProviders.swift; sourceTree = "<group>"; };
+		583D9B341C0A257D007D22FE /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		583D9B361C0A25B9007D22FE /* TextImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextImageTableViewCell.swift; sourceTree = "<group>"; };
+		583D9B391C0A2DED007D22FE /* ChartDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDataSources.swift; sourceTree = "<group>"; };
+		583D9B3B1C0A2E1D007D22FE /* ChartListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartListViewController.swift; sourceTree = "<group>"; };
+		583D9B3D1C0A2E4D007D22FE /* ChartTableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartTableViewCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +167,10 @@
 		5825664E1C02D41E006275F3 /* Migraine */ = {
 			isa = PBXGroup;
 			children = (
-				583D9B141C092D40007D22FE /* ActivityTasks */,
 				5825664F1C02D41E006275F3 /* AppDelegate.swift */,
+				583D9B381C0A2DA8007D22FE /* Dashboard */,
+				583D9B2D1C0A2043007D22FE /* Results */,
+				583D9B141C092D40007D22FE /* ActivityTasks */,
 				5825668C1C02D577006275F3 /* ConsentDocument.swift */,
 				5825668E1C02D67B006275F3 /* ConsentTask.swift */,
 				582566531C02D41E006275F3 /* Main.storyboard */,
@@ -201,12 +215,32 @@
 				583D9B1B1C093E0B007D22FE /* TaskListRow.swift */,
 				583D9B191C093D98007D22FE /* TaskListViewController.swift */,
 				583D9B061C090FBD007D22FE /* MicrophoneTask.swift */,
-				583D9B121C092736007D22FE /* MemoryTask.swift */,
 				583D9B151C092DEA007D22FE /* CognitiveTasks.swift */,
-				583D9B171C0937DC007D22FE /* ReactionTask.swift */,
 				582566511C02D41E006275F3 /* ViewController.swift */,
+				583D9B2B1C098B28007D22FE /* TableViewController.swift */,
 			);
 			name = ActivityTasks;
+			sourceTree = "<group>";
+		};
+		583D9B2D1C0A2043007D22FE /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				583D9B301C0A24CB007D22FE /* ImageTableViewCell.swift */,
+				583D9B321C0A2522007D22FE /* ResultTableViewProviders.swift */,
+				583D9B341C0A257D007D22FE /* ResultViewController.swift */,
+				583D9B361C0A25B9007D22FE /* TextImageTableViewCell.swift */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		583D9B381C0A2DA8007D22FE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				583D9B391C0A2DED007D22FE /* ChartDataSources.swift */,
+				583D9B3B1C0A2E1D007D22FE /* ChartListViewController.swift */,
+				583D9B3D1C0A2E4D007D22FE /* ChartTableViewCells.swift */,
+			);
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,16 +402,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583D9B351C0A257D007D22FE /* ResultViewController.swift in Sources */,
 				582566521C02D41E006275F3 /* ViewController.swift in Sources */,
+				583D9B331C0A2522007D22FE /* ResultTableViewProviders.swift in Sources */,
 				5825668F1C02D67B006275F3 /* ConsentTask.swift in Sources */,
+				583D9B371C0A25B9007D22FE /* TextImageTableViewCell.swift in Sources */,
+				583D9B3C1C0A2E1D007D22FE /* ChartListViewController.swift in Sources */,
 				583D9B071C090FBD007D22FE /* MicrophoneTask.swift in Sources */,
+				583D9B311C0A24CB007D22FE /* ImageTableViewCell.swift in Sources */,
+				583D9B2C1C098B28007D22FE /* TableViewController.swift in Sources */,
 				583D9B021C08EE5E007D22FE /* SurveyTask.swift in Sources */,
 				583D9B161C092DEA007D22FE /* CognitiveTasks.swift in Sources */,
-				583D9B131C092736007D22FE /* MemoryTask.swift in Sources */,
 				5825668D1C02D577006275F3 /* ConsentDocument.swift in Sources */,
 				582566501C02D41E006275F3 /* AppDelegate.swift in Sources */,
-				583D9B181C0937DC007D22FE /* ReactionTask.swift in Sources */,
 				583D9B1C1C093E0B007D22FE /* TaskListRow.swift in Sources */,
+				583D9B3A1C0A2DED007D22FE /* ChartDataSources.swift in Sources */,
+				583D9B3E1C0A2E4D007D22FE /* ChartTableViewCells.swift in Sources */,
 				583D9B1A1C093D98007D22FE /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

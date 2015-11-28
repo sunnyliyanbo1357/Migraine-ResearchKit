@@ -12,6 +12,45 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
+//    var tabBarController: UITabBarController {
+//        return window!.rootViewController as! UITabBarController
+//    }
+//    
+//    var taskListViewController: TaskListViewController {
+//        let navigationController = tabBarController.viewControllers!.first as! UINavigationController
+//        
+//        return navigationController.visibleViewController as! TaskListViewController
+//    }
+//    
+//    var resultViewController: ResultViewController? {
+//        let navigationController = tabBarController.viewControllers![1] as! UINavigationController
+//        
+//        // Find the `ResultViewController` (if any) that's a view controller in the navigation controller.
+//        return navigationController.viewControllers.filter { $0 is ResultViewController }.first as? ResultViewController
+//    }
+//    
+//    // MARK: UIApplicationDelegate
+//    
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        
+//        // When a task result has been finished, update the result view controller's task result.
+//        taskListViewController.taskResultFinishedCompletionHandler = { [unowned self] taskResult in
+//            /*
+//            If we're displaying a new result, make sure the result view controller's
+//            navigation controller is at the root.
+//            */
+//            if let navigationController = self.resultViewController?.navigationController {
+//                navigationController.popToRootViewControllerAnimated(false)
+//            }
+//            
+//            // Set the result so we can display it.
+//            self.resultViewController?.result = taskResult
+//        }
+//        return true
+//    }
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

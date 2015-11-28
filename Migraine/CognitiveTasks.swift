@@ -15,15 +15,9 @@ public var PSATTask: ORKOrderedTask {
 
 public var MemoryTask: ORKOrderedTask {
     return ORKOrderedTask.spatialSpanMemoryTaskWithIdentifier("MemoryTask", intendedUseDescription: nil, initialSpan: 4, minimumSpan: 2, maximumSpan: 8, playSpeed: 1, maxTests: 6, maxConsecutiveFailures: 3, customTargetImage: nil, customTargetPluralName: nil, requireReversal: false, options: ORKPredefinedTaskOption.None)
-    
-    //return ORKOrderedTask.PSATTaskWithIdentifier("PSATTask", intendedUseDescription: "This task will test your congnition.", presentationMode: <#T##ORKPSATPresentationMode#>, interStimulusInterval: <#T##NSTimeInterval#>, stimulusDuration: <#T##NSTimeInterval#>, seriesLength: <#T##Int#>, options: <#T##ORKPredefinedTaskOption#>)
-    
 }
 
 public var ReactionTask: ORKOrderedTask {
-    //    let successSoundURL = NSBundle.mainBundle().URLForResource("tap", withExtension: "aif")!
-    //    let successSound = SystemSound(soundURL: successSoundURL)!
-    
     return ORKOrderedTask.reactionTimeTaskWithIdentifier("ReactionTask", intendedUseDescription: nil, maximumStimulusInterval: 10, minimumStimulusInterval: 4, thresholdAcceleration: 0.5, numberOfAttempts: 3, timeout: 3, successSound: UInt32(kSystemSoundID_Vibrate), timeoutSound: 0, failureSound: UInt32(kSystemSoundID_Vibrate), options: [])
     //exampleSuccessSound
     //successSound.soundID
