@@ -58,6 +58,17 @@ extension ViewController : ORKTaskViewControllerDelegate {
         presentViewController(taskViewController, animated: true, completion: nil)
     }
     
+    @IBAction func PSATTapped(sender : AnyObject) {
+        let taskViewController = ORKTaskViewController(task: PSATTask, taskRunUUID: nil)
+        taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String, isDirectory: true)
+        presentViewController(taskViewController, animated: true, completion: nil)
+    }
+    
+    
+    
+    
+    
     
     
     

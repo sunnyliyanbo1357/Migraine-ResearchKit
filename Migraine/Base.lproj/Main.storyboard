@@ -45,6 +45,13 @@
                                     <action selector="memoryTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phR-dp-xgm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEP-tX-Gsp">
+                                <rect key="frame" x="149" y="285" width="92" height="30"/>
+                                <state key="normal" title="PSAT Activity"/>
+                                <connections>
+                                    <action selector="PSATTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0Q-r3-8F8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
