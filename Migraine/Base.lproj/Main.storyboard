@@ -38,16 +38,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-hb-MZE">
-                                <rect key="frame" x="0.0" y="482" width="375" height="55"/>
-                                <color key="backgroundColor" red="0.74509803921568629" green="0.8784313725490196" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Migraine Questionnaire">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edn-Y9-Yam"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4X-Et-ZXd">
                                 <rect key="frame" x="0.0" y="105" width="378" height="56"/>
                                 <color key="backgroundColor" red="0.83377547629134774" green="0.8784313725490196" blue="0.22788211192551608" alpha="0.28000000000000003" colorSpace="calibratedRGB"/>
@@ -98,24 +88,37 @@
                                     <action selector="ReactionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QfK-Oa-hBI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Document" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRb-E8-qYp">
-                                <rect key="frame" x="20" y="83" width="80" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    Survey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS5-am-fc1">
+                                <rect key="frame" x="0.0" y="446" width="375" height="28"/>
+                                <color key="backgroundColor" red="0.095052557248001518" green="0.11261047979797978" blue="0.062820040254113169" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKi-GT-Znt">
-                                <rect key="frame" x="20" y="180" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX5-ky-VDy">
+                                <rect key="frame" x="0.0" y="177" width="375" height="28"/>
+                                <color key="backgroundColor" red="0.095052557250000003" green="0.1126104798" blue="0.06282004025" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Survey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS5-am-fc1">
-                                <rect key="frame" x="20" y="459" width="53" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    Documents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFM-c2-jPC">
+                                <rect key="frame" x="0.0" y="77" width="375" height="28"/>
+                                <color key="backgroundColor" red="0.095052557250000003" green="0.1126104798" blue="0.06282004025" alpha="0.080000000000000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-hb-MZE">
+                                <rect key="frame" x="0.0" y="474" width="375" height="55"/>
+                                <color key="backgroundColor" red="0.74509803921568629" green="0.8784313725490196" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Migraine Questionnaire">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="edn-Y9-Yam"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -129,7 +132,6 @@
         <!--Task List View Controller-->
         <scene sceneID="jzs-iQ-HF3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OwJ-mt-QD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="f7A-Ud-4pb" customClass="TaskListViewController" customModule="Migraine" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="28" sectionFooterHeight="28" id="Mqk-G9-zpu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -168,6 +170,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="vCW-wb-yUF"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OwJ-mt-QD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-278" y="-1642"/>
         </scene>
@@ -193,7 +196,6 @@
         <!--Activities-->
         <scene sceneID="NHx-zg-daz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4v2-Bz-GYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XgF-9T-OnK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Activities" image="first tab" id="Ndq-AD-zvA"/>
                     <toolbarItems/>
@@ -206,6 +208,7 @@
                         <segue destination="f7A-Ud-4pb" kind="relationship" relationship="rootViewController" id="EZ6-Vv-tuy"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4v2-Bz-GYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1112" y="-1642"/>
         </scene>
