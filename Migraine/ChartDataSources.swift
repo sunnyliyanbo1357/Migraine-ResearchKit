@@ -48,6 +48,7 @@ class PieChartDataSource: NSObject, ORKPieChartViewDataSource {
         UIColor(red: 244/255, green: 190/255, blue: 74/255, alpha: 1)
     ]
     let values = [10.0, 25.0, 45.0]
+    let weather = ["Cloudy","Rainy","Windy"]
     
     func numberOfSegmentsInPieChartView(pieChartView: ORKPieChartView ) -> Int {
         return colors.count
@@ -62,7 +63,7 @@ class PieChartDataSource: NSObject, ORKPieChartViewDataSource {
     }
     
     func pieChartView(pieChartView: ORKPieChartView, titleForSegmentAtIndex index: Int) -> String {
-        return "Title \(index + 1)"
+        return weather[index]
     }
 }
 

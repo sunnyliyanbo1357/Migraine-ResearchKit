@@ -61,8 +61,8 @@ class ChartListViewController: UITableViewController {
         let pieChartView = pieChartTableViewCell.pieChartView
         pieChartView.dataSource = pieChartDataSource
         // Optional custom configuration
-        pieChartView.title = "TITLE"
-        pieChartView.text = "TEXT"
+        pieChartView.title = "Percentage"
+        pieChartView.text = "During Migraine"
         pieChartView.lineWidth = 14
         
         // ORKLineGraphChartView
